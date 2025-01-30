@@ -1,0 +1,2 @@
+# /dice.rb
+require "sinatra"
