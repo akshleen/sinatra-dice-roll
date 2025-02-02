@@ -7,7 +7,7 @@ require "sinatra"
 require "sinatra"
 
 get("/") do
-  "<h1 style='font-family: Arial, sans-serif;'>Dice Roll</h1>
+  "<h1 style='font-family: Times New Roman, sans-serif;'>Dice Roll</h1>
   <ul style='list-style-type: disc; font-size: 20px;'>
     <li><a href='/dice/2/6' style='color: indigo; text-decoration: underline;'>Roll two 6-sided dice</a></li>
     <li><a href='/dice/2/10' style='color: indigo; text-decoration: underline;'>Roll two 10-sided dice</a></li>
