@@ -7,7 +7,13 @@ require "sinatra"
 require "sinatra"
 
 get("/") do
-  "Hello World"
+  "<h1 style='font-family: Arial, sans-serif;'>Dice Roll</h1>
+  <ul style='list-style-type: disc; font-size: 20px;'>
+    <li><a href='/dice/2/6' style='color: indigo; text-decoration: underline;'>Roll two 6-sided dice</a></li>
+    <li><a href='/dice/2/10' style='color: indigo; text-decoration: underline;'>Roll two 10-sided dice</a></li>
+    <li><a href='/dice/1/20' style='color: indigo; text-decoration: underline;'>Roll one 20-sided die</a></li>
+    <li><a href='/dice/5/4' style='color: indigo; text-decoration: underline;'>Roll five 4-sided dice</a></li>
+  </ul>"
 end
 
 get("/zebra") do
